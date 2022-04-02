@@ -1,13 +1,19 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
 .topo {
     height: 92px;
+    width: 100%;
     background-color: #CF2B2B;
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
+    top: 0;
 }
 .titulo {
     font-family: 'Righteous', cursive;
@@ -21,11 +27,66 @@ body {
 }
 
 .meio {
-    height: 360px;
-    background-color: blue;
+    background: #E5E5E5;
+    height: 100%;
+    padding-bottom: 20px;
+    margin-top: 92px;
 }
-
-.final {
-    height: 60px;
-    background-color: aqua;
+.etapa {
+    font-family: 'Righteous', cursive;
+    font-size: 29px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+.caixa {
+    display: flex;
+    justify-content:safe; 
+    margin-left: 20px;
+    overflow-x: scroll;
+    gap: 20px;
+    padding-right:20px;
+}
+.opcao {
+    width: 172px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.conteudo-opcao {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foto img{
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-bottom: 10px
+}
+.nome {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+.descricao {
+    color: #A6A6A6;
+    font-weight: 300;
+    font-size: 15px;
+    width: 147px;
+    margin-bottom: 10px;
+}
+.preco {
+    font-size: 16px;
 }
