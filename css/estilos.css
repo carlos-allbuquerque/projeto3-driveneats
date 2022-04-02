@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.topo {
+    height: 92px;
+    background-color: #CF2B2B;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+.subtitulo {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.meio {
+    height: 360px;
+    background-color: blue;
+}
+
+.final {
+    height: 60px;
+    background-color: aqua;
+}
