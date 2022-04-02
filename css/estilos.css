@@ -90,3 +90,26 @@ body {
 .preco {
     font-size: 16px;
 }
+.barra-final {
+    width: auto;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    .finalizar-pedido {
+        width: 364px;
+        height: 61px;
+        background-color: #CBCBCB;
+        border-radius: 50px;
+        color: #FFFFFF;
+        font-size: 20px;
+        
+    }
+    .margem {
+        margin-bottom: 100px;
+    }
