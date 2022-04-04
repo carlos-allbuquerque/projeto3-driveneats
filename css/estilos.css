@@ -14,6 +14,7 @@ body {
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 .titulo {
     font-family: 'Righteous', cursive;
@@ -58,7 +59,9 @@ body {
     border-radius: 9px;
     padding-right: 20px;
     padding-left: 20px;
+    position: relative;
 }
+
 .conteudo-opcao {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -101,15 +104,34 @@ body {
     width: 100%;
     bottom: 0;
 }
-    .finalizar-pedido {
-        width: 364px;
-        height: 61px;
-        background-color: #CBCBCB;
-        border-radius: 50px;
-        color: #FFFFFF;
-        font-size: 20px;
+
+.finalizar-pedido {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 20px;
         
-    }
-    .margem {
-        margin-bottom: 100px;
-    }
+}
+.margem {
+    margin-bottom: 80px;
+}
+.icone {
+    position: absolute;
+    right: 11px;
+    bottom: 11px;
+}
+
+.prato-selecionado {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+.bebida-selecionada {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+.sobremesa-selecionada {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+.escondido {
+    display: none;
+}
