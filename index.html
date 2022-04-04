@@ -29,7 +29,7 @@
         </div>
         <div class="caixa">
             <!--primeiro prato  -->
-            <class class="opcao" onclick="escolherPrato(this)">
+            <class class="opcao" onclick="escolherPrato(this), habilitaBotao(this)" id="prato1">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/frango_yin_yang 1.svg">
@@ -42,41 +42,41 @@
             </class>
 
             <!--Segundo prato  -->
-            <div class="opcao" onclick="escolherPrato(this)">
+            <div class="opcao" onclick="escolherPrato(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
-                        <img src="./imagens/frango_yin_yang 1.svg">
+                        <img src="./imagens/espaguete_bolonhesaa-780x430.jpg">
                     </div>
-                    <div class="nome">Frango Yin Yang</div>
-                    <div class="descricao">Um pouco de batata, um pouco de salada</div>
-                    <div class="preco">R$ 14,90</div> 
+                    <div class="nome">Espaguete</div>
+                    <div class="descricao">Macarrão, molho de tomate</div>
+                    <div class="preco">R$ 12,50</div> 
                     <div class="icone escondido" ><img src="./imagens/Vector (2).svg"></div>
                 </div>
             </div>
 
            <!--Terceiro prato  -->
 
-           <div class="opcao" onclick="escolherPrato(this)">
+           <div class="opcao" onclick="escolherPrato(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                     <div class="foto">
                     <img src="./imagens/frango_yin_yang 1.svg">
                     </div>
-                    <div class="nome">Frango Yin Yang</div>
-                    <div class="descricao">Um pouco de batata, um pouco de salada</div>
-                    <div class="preco">R$ 14,90</div> 
+                    <div class="nome">Sopa</div>
+                    <div class="descricao">Sopa de Carne</div>
+                    <div class="preco">R$ 10,20</div> 
                 </div>
             </div>
 
             <!-- Quarto prato -->
 
-            <div class="opcao" onclick="escolherPrato(this)">
+            <div class="opcao" onclick="escolherPrato(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                     <div class="foto">
                     <img src="./imagens/frango_yin_yang 1.svg">
                     </div>
-                    <div class="nome">Frango Yin Yang</div>
-                    <div class="descricao">Um pouco de batata, um pouco de salada</div>
-                    <div class="preco">R$ 14,90</div> 
+                    <div class="nome">Lasanha</div>
+                    <div class="descricao">Favorita do Garfield</div>
+                    <div class="preco">R$ 15,90</div> 
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
 
             <!-- Primeira bebida -->
 
-            <div class="opcao" onclick="escolherBebida(this)">
+            <div class="opcao" onclick="escolherBebida(this), habilitaBotao(this)" id="bebida1">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/coquinha_gelada 2.svg">
@@ -102,40 +102,40 @@
 
             <!-- Segunda bebida -->
 
-            <div class="opcao" onclick="escolherBebida(this)">
+            <div class="opcao" onclick="escolherBebida(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/coquinha_gelada 2.svg">
                     </div>
-                    <div class="nome">Coquinha gelada</div>
-                    <div class="descricao">Lata 350 ml</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Guaraná</div>
+                    <div class="descricao">Garrafa 2L</div>
+                    <div class="preco">R$ 8,00</div> 
                 </div>
             </div>
 
             <!-- Terceira bebida -->
 
-            <div class="opcao" onclick="escolherBebida(this)">
+            <div class="opcao" onclick="escolherBebida(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/coquinha_gelada 2.svg">
                     </div>
-                    <div class="nome">Coquinha gelada</div>
-                    <div class="descricao">Lata 350 ml</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Água com gás</div>
+                    <div class="descricao">Garrafa 500 ml</div>
+                    <div class="preco">R$ 2,50</div> 
                 </div>
             </div>
 
             <!-- Quarta bebida -->
 
-            <div class="opcao" onclick="escolherBebida(this)">
+            <div class="opcao" onclick="escolherBebida(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/coquinha_gelada 2.svg">
                     </div>
-                    <div class="nome">Coquinha gelada</div>
-                    <div class="descricao">Lata 350 ml</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Milk Shake de Chocolate</div>
+                    <div class="descricao">Geladinho</div>
+                    <div class="preco">R$ 5,90</div> 
                 </div>
             </div>
         </div>
@@ -148,8 +148,8 @@
 
             <!-- Primeira sobremesa -->
 
-            <div class="opcao" onclick="escolherSobremesa(this)">
-                <div class="conteudo-opcao">
+            <div class="opcao" onclick="escolherSobremesa(this), habilitaBotao(this) " id="sobremesa1">
+                <div class="conteudo-opcao" >
                    <div class="foto">
                         <img src="./imagens/pudim 2.svg">
                     </div>
@@ -161,40 +161,40 @@
 
             <!-- Segunda sobremesa -->
 
-            <div class="opcao" onclick="escolherSobremesa(this)">
+            <div class="opcao" onclick="escolherSobremesa(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/pudim 2.svg">
                     </div>
-                    <div class="nome">Pudim</div>
-                    <div class="descricao">Pudim, apenas</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Sorvete de Casquinha</div>
+                    <div class="descricao">Sorvete</div>
+                    <div class="preco">R$ 3,00</div> 
                 </div>
             </div>
 
             <!-- Terceira sobremesa -->
 
-            <div class="opcao" onclick="escolherSobremesa(this)">
+            <div class="opcao" onclick="escolherSobremesa(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/pudim 2.svg">
                     </div>
-                    <div class="nome">Pudim</div>
-                    <div class="descricao">Pudim, apenas</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Mousse de Maracujá</div>
+                    <div class="descricao">Porção 250 gramas</div>
+                    <div class="preco">R$ 3,90</div> 
                 </div>
             </div>
 
             <!-- Quarta sobremesa -->
 
-            <div class="opcao" onclick="escolherSobremesa(this)">
+            <div class="opcao" onclick="escolherSobremesa(this), habilitaBotao(this)">
                 <div class="conteudo-opcao">
                    <div class="foto">
                         <img src="./imagens/pudim 2.svg">
                     </div>
-                    <div class="nome">Pudim</div>
-                    <div class="descricao">Pudim, apenas</div>
-                    <div class="preco">R$ 4,90</div> 
+                    <div class="nome">Bolo de chocolate</div>
+                    <div class="descricao">1 fatia de 200 gramas</div>
+                    <div class="preco">R$ 2,90</div> 
                 </div>
             </div>
         </div>
@@ -202,11 +202,24 @@
     </div>
     <div class="margem"></div>
     <div class="barra-final">
-        <button class="finalizar-pedido">
-            Selecione os 3 itens
-            para fechar o pedido
-        </button>
+        <div class="finalizar-pedido-inclicavel">
+            <div class="texto">
+                Selecione os 3 itens
+                para fechar o pedido
+            </div>
+            
+        </div>
     </div>
+
+    <div class="barra-final-clicavel escondido">
+        <div class="finalizar-pedido-clicavel" onclick="redirecionar()">
+            <div class="texto">
+                Fechar pedido
+            </div>
+            
+        </div>
+    </div>
+
     <script src="script.js">
     </script>
 </body>
